@@ -1,10 +1,12 @@
 import React from 'react';
-
+const name = "Mhmdnsr";
 function App() {
   return (
-    <div>
-      <h1>سلام React!</h1>
-      <p>این اولین کامپوننت من است.</p>
+    <div style = {{backgroundColor:"grey"}}>
+      <h1 
+    style = {{color:"White"}}  >
+    {name}
+    </h1>
     </div>
   );
 }
